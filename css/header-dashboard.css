@@ -1,0 +1,38 @@
+header {
+    display: contents;
+}
+
+.navbar-header {
+    width: 100%;
+    padding: 10px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    color: #000;
+}
+
+.navbar-light .navbar-nav .btn {
+    border: 1px solid #2E5EDB;
+    color: #000;
+}
+
+.navbar-expand-lg .navbar-collapse {
+    justify-content: flex-end;
+}
+
+.navbar-toggler {
+    width: 50px;
+    border: none !important;
+}
+
+@media only screen and (min-width: 700px) {
+    .navbar-light .navbar-nav .nav-link {
+        margin: 0 10px;
+    }
+    .navbar-light .navbar-nav .btn {
+        max-width: 150px;
+    }
+}

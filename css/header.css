@@ -1,0 +1,27 @@
+.container-nav {
+    width: 100%;
+    display: flex;
+}
+
+.container-buttons {
+    margin-left: auto;
+}
+
+.container-buttons > a {
+    text-decoration: none;
+}
+
+.container-buttons > a > .btn-outline {
+    margin-right: 32px;
+}
+
+
+@media only screen and (max-width: 700px) {
+    .container-nav img {
+        height: 40px;
+        padding: 0 .25rem;
+    }
+    .container-nav button {
+        width: 100px;
+    }
+}

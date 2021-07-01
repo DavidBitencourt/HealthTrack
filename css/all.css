@@ -1,0 +1,122 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, b, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+    font-family: Roboto;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+body {
+    background-color: #FFFFFF;
+}
+
+p {
+    color: #7F7F7F;
+    font-size: 16px;
+}
+
+.background-image {
+    width: 250px;
+    height: 300px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    visibility: hidden;
+}
+
+header {
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 22px 40px;
+    margin: 0 auto;
+}
+
+footer {
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button {
+    border-radius: 10px !important;
+    border: 1px solid #2E5EDB !important;
+    font-size: 16px !important;
+    width: 150px;
+}
+
+.btn-outline {
+    color: #000000;
+    background-color: #FFFFFF;
+}
+
+.btn-outline:hover, .btn-outline:focus {
+    color: #000000;
+    background-color: #FFFFFF;
+    box-shadow: none;
+}
+
+.btn-contained {
+    color: #FFFFFF;
+    background-color: #2E5EDB;
+}
+
+.btn-contained:hover, .btn-contained:focus {
+    color: #FFFFFF;
+    background-color: #2E5EDB;
+    box-shadow: none;
+}
+
+.input-form {
+    border: none !important;
+    border-bottom: 1px solid #2E5EDB !important;
+    border-radius: 0px !important;
+}
+
+@media only screen and (min-width: 700px) {
+    .background-image {
+        visibility: visible;
+    }
+
+    header {
+        height: 100px;
+    }
+}
